@@ -6,17 +6,7 @@ body {
     background-size: cover;
     font-family: 'Open Sans', sans-serif; 
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -74,7 +64,7 @@ table {
 {
 	font-size: 24px;
 	font-family: 'Lobster', cursive;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 .img
 {
@@ -98,7 +88,7 @@ table {
 .contact-title i {
     color: #FFFFFF;
     font-size: 1.8em;
-    text-align: right;
+    text-align: middle;
     display: block;
     padding: 65px 0 0 0;
 }
@@ -107,13 +97,13 @@ table {
     font-size: 1.2em;
     font-weight: 600;
     color: #fff;
-    text-align: right;
+    text-align: middle;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 15px 0px 30px;
 }
 .contact-title p {
-    text-align: right;
+    text-align: middle;
     margin-top: -5px;
     color: rgba(236,240,241,0.9);
     font-size: 13px;
